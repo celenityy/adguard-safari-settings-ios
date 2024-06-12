@@ -41,6 +41,8 @@ AdGuard - Social -> **Allow in Private Browsing** -> ✅
 
 Settings for Websites -> Content Blockers -> **Use Content Blockers On** -> `All Websites`
 
+Now we can get to the AdGuard :p
+
 # Home
 
 **Protection is on** -> `Safari Protection is on` ✅ 
