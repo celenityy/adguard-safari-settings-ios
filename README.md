@@ -2,7 +2,7 @@
 
 My recommendations for the ultimate configuration of AdGuard on Safari on iOS :)
 
-**NOTE:** This is specifically tailored for AdGuard on Safari on iOS. For Safari on macOS, see [here](https://codeberg.org/Magnesium1062/adguard-safari-settings-macos).
+**NOTE:** This is specifically tailored for AdGuard on Safari on iOS. For Safari on macOS, see [here](https://codeberg.org/Magnesium1062/adguard-safari-settings-macos), & for AdGuard's extension on other platforms, see [here](https://codeberg.org/Magnesium1062/adguard-extension-settings).
 
 **Make sure to set the following under Safari's settings to ensure AdGuard can work at full capacity:**
 
