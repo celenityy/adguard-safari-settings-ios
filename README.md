@@ -188,7 +188,7 @@ First, I would highly recommend setting the following to protect against [IDN Ho
 
 * `xn--*$doc,popup,frame`
 
-I usually also set the following to always enforce blocking Google's Doubleclick & Google Analytics: ((Why?)[https://github.com/gorhill/uBlock/wiki/Privacy-stuff])
+I usually also set the following to always enforce blocking Google's Doubleclick & Google Analytics: *[Why?](https://github.com/gorhill/uBlock/wiki/Privacy-stuff)*
 
 * `||doubleclick.net^$important`
 
