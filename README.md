@@ -2,9 +2,9 @@
 
 My recommendations for the ultimate configuration of AdGuard on Safari on iOS :)
 
-**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/celenity/adguard-safari-settings-macos), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/celenityy/adguard-safari-settings-macos).
-
 **NOTE:** This is specifically tailored for AdGuard on Safari on iOS. For Safari on macOS, see [here](https://codeberg.org/celenity/adguard-safari-settings-macos), & for AdGuard's extension on other platforms, see [here](https://codeberg.org/celenity/adguard-extension-settings).
+
+**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/celenity/adguard-safari-settings-macos), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/celenityy/adguard-safari-settings-macos).
 
 **Make sure to set the following under Safari's settings to ensure AdGuard can work at full capacity:**
 
