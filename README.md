@@ -2,7 +2,9 @@
 
 My recommendations for the ultimate configuration of AdGuard on Safari on iOS :)
 
-**NOTE:** This is specifically tailored for AdGuard on Safari on iOS. For Safari on macOS, see [here](https://codeberg.org/Magnesium1062/adguard-safari-settings-macos), & for AdGuard's extension on other platforms, see [here](https://codeberg.org/Magnesium1062/adguard-extension-settings).
+**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/celenity/adguard-safari-settings-macos), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/celenityy/adguard-safari-settings-macos).
+
+**NOTE:** This is specifically tailored for AdGuard on Safari on iOS. For Safari on macOS, see [here](https://codeberg.org/celenity/adguard-safari-settings-macos), & for AdGuard's extension on other platforms, see [here](https://codeberg.org/celenity/adguard-extension-settings).
 
 **Make sure to set the following under Safari's settings to ensure AdGuard can work at full capacity:**
 
@@ -56,7 +58,7 @@ Filters:
 
 Off to a fun start, straight to the lists. I would generally recommend enabling most of the built-in filters, besides those under the `Language-specific` category & some of those under the `Other` category. These are all extremely carefully picked lists with strong coverage and minimal breakage, and I would recommend enabling them as follows for the best coverage possible.
 
-**Ad Blocking** -> ✅ 
+**Ad Blocking** -> ✅
 
 Ad Blocking:
 
@@ -138,13 +140,11 @@ Other:
 
 Custom:
 
-**NOTE:** Due to unfortunate limitations from Apple, we can only add up to 150,000 rules here. This means we have to be careful with what we add, which is why you'll see some smaller & more optimized lists here vs. more comprehensive protection like I usually recommend. This is also a great example of one of the many reasons why it's important to have a good DNS content blocker (see `Additional recommendations` below), so we don't have to rely on the extension when unnecessary. 
+**NOTE:** Due to unfortunate limitations from Apple, we can only add up to 150,000 rules here. This means we have to be careful with what we add, which is why you'll see some smaller & more optimized lists here vs. more comprehensive protection like I usually recommend. This is also a great example of one of the many reasons why it's important to have a good DNS content blocker (see `Additional recommendations` below), so we don't have to rely on the extension when unnecessary.
 
 I would recommend adding the following custom filters:
 
 * ⭐️ Divested Fingerprinting Blocklist: `https://codeberg.org/divested/dnsbl/raw/branch/master/Fingerprinting.ubl`
-
-* ⭐️ pfBlockerNG MS-1: `https://gist.githubusercontent.com/BBcan177/bf29d47ea04391cb3eb0/raw/7290e0681bcd07415420b5c80a253652fd13f840/MS-1`(Even if you use this list in i.e. AdGuard Home, you should also apply it here for an extra level of protection from these IPs outside of just the DNS level)
 
 * ⭐️ Yokoffing's `Block third party fonts` - `https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt`
 
@@ -246,12 +246,12 @@ Advanced settings -> Low-level settings -> **Background app refresh interval** -
 
 # Additional recommendations
 
-* Follow my recommendations for iOS [here](https://codeberg.org/Magnesium1062/ios-settings). *(See Safari specificially [here](https://codeberg.org/Magnesium1062/ios-settings#safari))*.
+* Follow my recommendations for iOS [here](https://codeberg.org/celenity/ios-settings). *(See Safari specificially [here](https://codeberg.org/celenity/ios-settings#safari))*.
 
-* Use a private, secure, & reputable DNS provider of your choice. I would recommend setting up your own [NextDNS](https://nextdns.io/) configuration if you are able to *(See my recommendations for NextDNS [here](https://codeberg.org/Magnesium1062/nextdns-settings))*, otherwise I would recommend [Quad9](https://quad9.net/).
+* Use a private, secure, & reputable DNS provider of your choice. I would recommend setting up your own [NextDNS](https://nextdns.io) configuration if you are able to *(See my recommendations for NextDNS [here](https://codeberg.org/celenity/nextdns-settings))*, otherwise I would recommend [Quad9](https://quad9.net/).
 
 * Enable [Lockdown Mode](https://support.apple.com/105120).
 
 * Enable Safari's [Fraudulent Website Warning](https://www.apple.com/legal/privacy/data/en/safari/).
 
-* Use a (reputable) VPN. I would recommend either [Mullvad](https://mullvad.net/) or [ProtonVPN](https://protonvpn.com/).
+* Use a (reputable) VPN. I would generally recommend either [Mullvad](https://mullvad.net/), [IVPN](https://www.ivpn.net/), or [ProtonVPN](https://protonvpn.com/).
